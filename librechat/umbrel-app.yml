@@ -3,7 +3,7 @@ id: librechat
 name: LibreChat
 tagline: Enhanced ChatGPT Clone
 category: ai
-version: "v0.8.4"
+version: "v0.8.5"
 port: 7050
 description: >-
   Enhanced ChatGPT Clone: Features Agents, DeepSeek, Anthropic, AWS, OpenAI, Assistants API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting.
@@ -85,19 +85,17 @@ defaultPassword: ""
 deterministicPassword: true
 dependencies: []
 releaseNotes: >-
-  🚨 This release includes 30+ security fixes and is strongly recommended for all deployments.
+  This release adds the foundation for admin-panel controls, including roles, groups, grants, and per-principal configuration overrides.
 
 
   Key Highlights:
-    - Major security hardening with over 30 security fixes across the application
-    - MCP improvements including reconnection storm prevention, OAuth race condition fixes, and better STDIO user experience
-    - Replaced tokenization library with a lighter and faster alternative
-    - Artifact rendering now uses static HTML for more reliable display
-    - Native ODT document parser support added
-    - Support for unauthenticated SMTP relays
-    - Accessibility improvements for conversation headings and date groups
-    - Shared links are now private by default
+    - New context compaction and summarization support for long-running agent conversations
+    - Claude Opus 4.7 model support with configurable reasoning visibility
+    - Redesigned sidebar, refreshed prompts UI, sidebar icon toggle, and updated tool-call rendering
+    - Performance and MCP improvements, including in-memory caching, lazy MCP initialization, and OAuth client recovery fixes
+    - Pinned model specs for quicker access to favorite model configurations
+    - Multiple file handling, web search, OAuth, audio, artifact, and agent fixes
 
 
-  Full release notes can be found at https://www.librechat.ai/changelog
+  Full release notes can be found at https://www.librechat.ai/changelog/v0.8.5
 path: ""

@@ -3,7 +3,7 @@ id: linkstack
 name: LinkStack
 tagline: A highly customizable link sharing platform
 category: files
-version: "4.2.3"
+version: "4.8.6"
 port: 8190
 description: >-
   LinkStack is a unique platform that provides an efficient solution for managing and sharing links online. Our platform offers a website similar to Linktree, which allows users to overcome the limitation of only being able to add one link on social media platforms.
@@ -40,6 +40,10 @@ gallery:
   - 3.jpg
   - 4.jpg
   - 5.jpg
-releaseNotes: ""
+releaseNotes: >-
+  This update includes critical security fixes, dependency updates, and fixes for production dependencies. It also includes fixes and improvements from previous LinkStack releases such as theme filesystem corruption fixes, updated Font Awesome icons, new translations, and additional social/link buttons.
+
+
+  Full release notes are found at https://github.com/LinkStackOrg/LinkStack/releases
 dependencies: []
 path: ""
